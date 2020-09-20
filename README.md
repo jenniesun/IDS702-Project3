@@ -29,3 +29,21 @@ Introduction: a short but more in-depth introduction to the inferential question
 Data: your EDA, interesting features of the data, and how you dealt with missing/erroneous values. Try to include one or two plots of your most interesting EDA findings. <br />
 Model: a detailed description of the model used, how you selected the model, how you selected the variables, model assessment, model validation, and presentation of the model results. What are your overall conclusions in context of the inferential problem(s)? Try to include one or two plots that can help drive your point home. <br />
 Conclusion: the importance of your findings and potential limitations of the study.
+
+#### Code Book
+
+
+Variable:	Description <br />
+Id:	id number <br />
+birth:	birth date where 1096 = January1, 1961 <br />
+gestation:	length of gestation in days <br />
+bwt (Response/outcome variable):	birth weight in ounces (999 = unknown) <br />
+parity:	total number of previous pregnancies, including fetal deaths and still births. (99=unknown) <br />
+mrace:	mother’s race or ethnicity (0-5=white, 6=mexican, 7=black, 8=asian, 9=mix, 99=unknown) <br />
+mage:	mother’s age in years at termination of pregnancy <br />
+med:	mother’s education (0 = less than 8th grade, 1 = 8th to 12th grade. did not graduate high school, 2 = high school graduate, no other schooling, 3 = high school graduate + trade school, 4 = high school graduate + some college, 5 = college graduate, 6,7 = trade school but unclear if graduated from high school, 9 = unknown <br />
+mht:	mother’s height in inches <br />
+mpregwt:	mother’s pre-pregnancy weight in pounds <br />
+income:	family yearly income in 2500 increments. 0 = under 2500, 1 = 2500-4999, …, 9 = 15000+. 98=unknown, 99=not asked <br />
+smoke:	does mother smoke? (0 = never, 1 = smokes now, 2 = until preg, 3 = once did, not now) <br />
+Premature:	1 = baby born before gestational age of 270, and 0 = otherwise.
