@@ -24,8 +24,8 @@ Analyze the data and investigate these questions using a logistic regression mod
 
 The report is organized into sections as follows.
 
-Summary: a few sentences describing the inferential question(s), the method used and the most important results.
-Introduction: a short but more in-depth introduction to the inferential question(s) of interest. Here, you are basically writing the experiment and questions of interest given in your own words.
-Data: your EDA, interesting features of the data, and how you dealt with missing/erroneous values. Try to include one or two plots of your most interesting EDA findings.
-Model: a detailed description of the model used, how you selected the model, how you selected the variables, model assessment, model validation, and presentation of the model results. What are your overall conclusions in context of the inferential problem(s)? Try to include one or two plots that can help drive your point home.
+Summary: a few sentences describing the inferential question(s), the method used and the most important results. <br />
+Introduction: a short but more in-depth introduction to the inferential question(s) of interest. Here, you are basically writing the experiment and questions of interest given in your own words. <br />
+Data: your EDA, interesting features of the data, and how you dealt with missing/erroneous values. Try to include one or two plots of your most interesting EDA findings. <br />
+Model: a detailed description of the model used, how you selected the model, how you selected the variables, model assessment, model validation, and presentation of the model results. What are your overall conclusions in context of the inferential problem(s)? Try to include one or two plots that can help drive your point home. <br />
 Conclusion: the importance of your findings and potential limitations of the study.
